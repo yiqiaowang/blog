@@ -1,4 +1,19 @@
-baseURL = "http://example.org/"
+baseURL = "https://yiqiaowang.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Yi Qiao Wang"
 theme = "hugo-theme-basic"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  titleEmoji = ":tada:"
+
+[Permalinks]
+  post = "post/:slug"
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
